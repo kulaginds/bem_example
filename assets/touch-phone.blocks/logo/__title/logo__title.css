@@ -1,0 +1,17 @@
+.logo__title {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+@media only screen and (orientation: landscape) {
+
+    .logo__title {
+        width: auto;
+        margin: 1.1em 0 0 1em;
+        display: inline-block;
+    }
+
+}

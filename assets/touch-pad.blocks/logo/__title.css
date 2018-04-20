@@ -1,0 +1,9 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .logo__title {
+        width: auto;
+        margin: 1.4em 0 0 1em;
+        display: inline-block;
+    }
+
+}

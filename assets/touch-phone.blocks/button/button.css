@@ -1,0 +1,15 @@
+.button, .button:visited, .button:focus, .button:active {
+    width: auto;
+    padding: 0.5em;
+    cursor: pointer;
+    font-size: 16pt;
+    background-color: #75AD2E;
+    color: #fff;
+    border: none;
+    border-radius: 0.2em;
+}
+
+.button:hover {
+    background-color: #699C29;
+    text-decoration: none;
+}

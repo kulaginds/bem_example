@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Index</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="css/1-col.min.css">
+    <link rel="icon" href="/images/16x16.png" type="image/png">
+</head>
+<body class="body">
+    <div class="container body__container">
+        <div class="logo">
+            <img class="logo__picture" src="/images/logo.png" alt="project logo">
+            <span class="logo__title">
+                <a class="link" href="/">project</a>
+            </span>
+        </div>
+        <form class="search-form" action="/search" method="GET">
+            <input class="textfield" type="text" placeholder="Купить мотоцикл">
+            <a class="button button_color_green" href="javascript:this.document.forms[0].submit();">
+                <img src="/images/magnifier.svg" alt="search button">
+            </a>
+        </form>
+        <p class="text">Сервис <a class="link" href="/">project</a> позволяет найти объявления о продаже товаров или услуг.</p>
+        <div class="create-button-container">
+            <a class="button button_color_red" href="/create">Подать объявление</a>
+        </div>
+        <ul class="menu">
+            <li class="menu__link"><a class="link" href="/rules">Правила</a></li>
+            <li class="menu__link"><a class="link" href="/aboutus">О сайте</a></li>
+            <li class="menu__link"><a class="link" href="/contacts">Контакты</a></li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "author": "Dmitry Kulagin",
+  "name": "kupisev.ru",
+  "description": "css and js files of main site",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=8"
+  },
+  "devDependencies": {
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-bem-bundle-builder": "^0.1.0",
+    "gulp-bem-bundler-fs": "^0.0.10",
+    "gulp-concat": "^2.6.0",
+    "gulp-csso": "^3.0.0",
+    "gulp-debug": "^3.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-uglify": "^3.0.0"
+  },
+  "private": true
+}

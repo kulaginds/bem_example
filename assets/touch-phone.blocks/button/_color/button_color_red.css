@@ -1,0 +1,7 @@
+.button_color_red {
+    background-color: #F25128;
+}
+
+.button_color_red:hover {
+    background-color: #E14C25;
+}

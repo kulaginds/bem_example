@@ -1,0 +1,23 @@
+.link {
+    text-decoration: none;
+    color: #4461BA;
+}
+
+.link:visited {
+    color: #4461BA;
+}
+
+.link:active {
+    color: #4461BA;
+}
+
+.link:focus {
+    color: #4461BA;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+.link {
+    /*color: red;*/
+}

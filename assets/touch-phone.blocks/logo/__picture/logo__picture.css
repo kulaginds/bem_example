@@ -1,0 +1,14 @@
+.logo__picture {
+    width: 50%;
+    margin: 0 25%;
+}
+
+@media only screen and (orientation: landscape) {
+
+    .logo__picture {
+        margin: 0 0 0 6em;
+        display: inline-block;
+        width: 20%;
+    }
+
+}
